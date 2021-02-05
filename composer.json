@@ -1,0 +1,23 @@
+{
+    "name": "justary/echo",
+    "type": "library",
+    "license": "MIt",
+    "authors": [
+        {
+            "name": "Mr.justary",
+            "email": "justary@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Justary\\Echo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Justary\\Echo\\Tests\\": "tests/"
+        }
+    }
+}
